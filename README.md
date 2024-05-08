@@ -92,7 +92,7 @@ The are 1 correct answers
 
 I scored 90 marks in the Java Foundations exam!
 I scored OCAJF marks in the 90 exam!
-Exception will be thrown at run time.
+x Exception will be thrown at run time.
 Compilation error
 
 __________________________________________________
@@ -105,8 +105,8 @@ Assume that all variables are of type ints.
 
 The are 2 correct answers
 
-- [x] y = 10**x + 20*x + 30;
-y = x*(10*x + 20) + 30;
+y = 10**x + 20*x + 30;
+- [x] y = x*(10*x + 20) + 30;
 y = 10*x^2 + 20*x +20;
 - [x] y = 10*x*x + 20*x + 30;
 y = 10*x** + 20*x + 30;
@@ -118,13 +118,13 @@ ___________________________________________________-
 6 / 45
 
 Which of the following features are provided by the JDK?
-The are 4 correct answers
+The are 2 correct answers
 
 x A Java Runtime Environment (JRE).
 Machine learning
 x API for Java SE Standard
-x Database engine
-x Integration libraries
+Database engine
+Integration libraries
 
 
 
@@ -231,11 +231,15 @@ where, INT1 and INT2 can be any two integers.
 Which of the following will produce the same result?
 
 The are 1 correct answers
+
 for(int i=INT1; i<INT2; System.out.println(++i));
+
 for(int i=INT1; i++<INT2; System.out.println(i));
+
 int i=INT1; while(i++<INT2) { System.out.println(i); }
-x int i=INT1; do { System.out.println(i); }while(i++<INT2);
-x None of these.
+
+- [x] int i=INT1; do { System.out.println(i); }while(i++<INT2);
+None of these.
 
 
 
@@ -305,7 +309,7 @@ System.out.println(m+”, “+n);
 The are 1 correct answers
 10, 20
 9, 19
-x 3, 7
+- [x]  3, 7
 None of these.
 
 
@@ -345,8 +349,8 @@ switch (i)
 
 The are 1 correct answers
 
-It will print 1 0 2
-x It will print 1 0 2 3
+- [x] It will print 1 0 2
+It will print 1 0 2 3
 It will print 1 0
 It will print 1
 Nothing will be printed.
@@ -361,9 +365,9 @@ System.out.printf(“This is %s %s”, “what”, “it”, “is”);
 
 The are 1 correct answers
 
-This is what it
+- [x] This is what it
 This is it is
-- Exception will be thrown at run time because the number of arguments and the number of format specifiers in the input string do not match.
+Exception will be thrown at run time because the number of arguments and the number of format specifiers in the input string do not match.
 Compilation failure
 
 
@@ -400,8 +404,8 @@ System.out.println(“Sum = ” + sum);
 }
 
 The are 1 correct answers
-x Compile time error at line 1.
-It will print Sum = 0
+Compile time error at line 1.
+- [x] It will print Sum = 0
 It will print Sum = 20
 Runtime error.
 None of the above.
@@ -414,9 +418,9 @@ ___________________________________________________
 Which of the following correctly declare a variable which can hold an array of 10 integers?
 The are 2 correct answers
 
-int[ ] iA
+- [x] int[ ] iA
 int[10] iA
-int iA[ ]
+- [x] int iA[ ]
 Object[ ] iA
 Object[10] iA
 
@@ -466,8 +470,8 @@ The are 1 correct answers
 
 true true
 true false
-- false true
-false false
+false true
+- [x] false false
 
 
 
@@ -501,7 +505,7 @@ if (b2 = b1 == false)
 The are 1 correct answers
 
 Compile time error.
-It will print true;
+- [x] It will print true;
 It will print false;
 Runtime error.
 It will print nothing.- 
@@ -650,7 +654,7 @@ Which of the following is correct about Java byte code?
 The are 1 correct answers
 
 It can run on any OS and chip architecture.
-x It can run on any OS and chip architecture if there is a JRE available for that OS and chip architecture.
+- [x] It can run on any OS and chip architecture if there is a JRE available for that OS and chip architecture.
 It can run on any OS and chip architecture if that platform has a JRE built for it and the Java code was compiled ON that platform.
 It can run on any OS and chip architecture if that platform has a JRE built for it and the Java code was compiled FOR that platform.
 
@@ -688,8 +692,8 @@ public class TestClass
 The are 1 correct answers
 
 The code will print i = 1 iArr[0] = 1
-The code will print i = 1 iArr[0] = 2
-x The code will print i = 2 iArr[0] = 1
+- [x] The code will print i = 1 iArr[0] = 2
+The code will print i = 2 iArr[0] = 1
 The code will print i = 2 iArr[0] = 2
 The code will not compile.
 
@@ -735,7 +739,7 @@ public class TestClass
 
 The are 1 correct answers
 
-1x 
+- [x] 1 
 2
 3
 4
@@ -869,7 +873,7 @@ public int setVar(int a, int b, float c) {
 Which of the following methods correctly overload the above method ?
 
 The are 2 correct answers
-x public int setVar(int a, float b, int c)
+- [x]  public int setVar(int a, float b, int c)
 {
   return setVar(a, c, b);
 }
@@ -881,11 +885,11 @@ public int setVar(int x, int y, float z)
 {
   return x+y;
 }
-x public float setVar(int a, int b, float c)
+public float setVar(int a, int b, float c)
 {
   return c*a;
 }
-x public float setVar(int a)
+- [x] public float setVar(int a)
 {
   return a;
 }
@@ -930,7 +934,7 @@ ___________________________________________________
 Which of the following are reserved words in Java?
 The are 2 correct answers
 
-x goto
+- [x] goto
 x package
 export
 array
@@ -1186,13 +1190,14 @@ Which of the following are correct about “encapsulation”?
 The are 2 correct answers
 
 Encapsulation is same as polymorphism.
-xIt helps make sure that clients have no accidental dependence on the choice of representation
-x It helps avoiding name clashes as internal variables are not visible outside.
+
+- [x] It helps make sure that clients have no accidental dependence on the choice of representation
+
+- [x] It helps avoiding name clashes as internal variables are not visible outside.
+
 Encapsulation makes sure that messages are sent to the right object at run time.
- Encapsulation helps you inherit the properties of another class.
 
-
-
+Encapsulation helps you inherit the properties of another class.
 
 ___________________________________________________
 
